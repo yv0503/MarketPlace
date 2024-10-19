@@ -25,21 +25,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $sql = "SELECT * FROM usercredentials WHERE UserName = '$username' AND password = '$password'";
     $result = $conn->query($sql);
 
-    if ($result->num_rows > 0) {
-        if($username == "admin"){
-            header("Location: Admin.php");
-            exit;
-        }
-        else{
-            header("Location: homepage.php");
-            exit;
-        }   
-    } 
-    else {  
-        echo "Invalid username or password.";
-    }
+    if(isset($_POST)){
+        foreach ($_POST as $key=>$value){
+            if($key == "login"){
+            if ($result->num_rows > 0) {
+                if($username == "admin"){
+                    header("Location: Admin.php");
+                    exit;
+                }
+                else{
+                    header("Location: homepage.php");
+                    exit;
+                }   
+            } 
+            else {  
+                echo "Invalid username or password.";
+            }
 
-    $conn->close();
+            $conn->close();
+            }
+
+            if($key == "register"){
+                header("Location: register.php");
+            }
+        }
+    }
 }
 ?>
 
@@ -51,14 +61,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <div><p class="TitleFont2 colunmItem appearLeft" style="position:1">Online Market</p></div>
             </div>
             <div class="loginGUI columnItem" style="--position: 2">
-            <form class="login" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            <form class="login" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 <p class ="item5 Logintext2">Login</p>
                 <p class ="Logintext item1">Username/Email</p>
                 <p class ="Logintext item3">Password</p>
                 <input type="text" id="username" name="username" class="user item2" placeholder="@username etc..">
                 <input type="password" id="password" name="password" class="user password item4" placeholder=".........">
-                <button class="loginbutton Logintext item6">Login</button>
-                <button class="loginbutton Logintext item7">Register</button>
+                <button name="login" class="loginbutton Logintext item6">Login</button>
+                <button name="register" class="loginbutton Logintext item7">Register</button>
                 </form>
             </div>
         </div>
