@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="design.css">
         <script defer src="main.js"></script>
     </head>
-    <body class="mainBackground">
+    <body class="mainBackground scroll">
 
         <header class="header hidden">
             <div class="container" style="--quantity: 2">
@@ -155,8 +155,430 @@
                     <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
                     <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
                     <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
-                    <Button class="ProductBuy BuyButton item" style="--position: 5"></button>           
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
                 </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$1</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$143243</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$221313</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$32556</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12545</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$123452</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$21351234</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12355</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$234213</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$325456</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$1</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$143243</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$221313</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$32556</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12545</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$123452</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$21351234</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12355</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$234213</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$325456</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$1</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$143243</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$221313</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$32556</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12545</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$123452</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$21351234</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12355</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$234213</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$325456</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$1</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$143243</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$221313</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$32556</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12545</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$123452</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="headset.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$21351234</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$12355</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$234213</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$325456</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                <div class="Products hidden" style="--position: 1">
+                    <div class="item" style="--position: 1"><img src="jacket.png" class="ProductImg"></div>
+                    <div class="ProductDescription item" style="--position: 2"><p class="ProductFont">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductSeller item" style="--position: 3"><p class="ProductFont2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "</p></div>
+                    <div class="ProductPrice item" style="--position: 4"><p class="ProductFont2">$2324</p></div>
+                    <Button class="ProductBuy BuyButton item" style="--position: 5">Buy</button>           
+                </div>   
+
+                
         </div>
 
 

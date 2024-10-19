@@ -12,10 +12,17 @@
     background-size: cover;
     margin-bottom: 0;
     padding-bottom: 0;
-    overflow-x: clip;
+    overflow-x: visible;
     overflow-y: hidden;
     grid-area: 1/1;
 }
+
+.scroll{
+    overflow-x: visible;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 
 /* Containers */
 
@@ -62,9 +69,9 @@
     width: 100%;
     justify-items: center;
     overflow-y: hidden;
+    overflow-x: hidden;
     display: grid;
-    grid-template-rows: 30% 70%;
-    row-gap: 3%;
+    grid-template-rows: 25% 70% 5%;
 }
 
 .container6{
@@ -428,8 +435,7 @@
     box-shadow: 0 0px 5px #000000;
     height: 100%;
     width: 90%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
     /*grid-template-rows: repeat(calc(var(--quantity)),20%);*/
     display: grid;   
@@ -658,7 +664,7 @@
 /* --------Scroll Bar-------- */
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0px;
     align-self: left;
 }
 
@@ -672,12 +678,17 @@
     border-radius: 10px;
 }
 
+::-webkit-scrollbar-button{
+    background: linear-gradient(to bottom, #cacaca00, #c7c7c700, #adadad00);
+    border-radius: 10px;
+}
+
 /* Register Page */
 
 .registerGUI {
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     margin-left: 100px;
     background: linear-gradient(to bottom, #ffffff34,#ffffff5d,#ffffff2f);
     width: 80%;
@@ -687,4 +698,40 @@
     padding: 20px;
     box-shadow: 0px 5px 15px rgb(100, 100, 100);
     z-index: 20;
+    
 }
+
+.Registertext{
+    font-size: 24px;
+    color: #000000;
+    text-shadow: 3px 5px 15px rgb(34, 34, 34);
+}
+
+.registerItem{
+    grid-column: calc(var(--positioncolumn) * 1);
+    grid-row: calc(var(--positionrow) * 1);
+}
+
+.registerItem2{
+    grid-column: calc(var(--positioncolumn) * 1);
+    grid-row: calc(var(--positionrow) * 1);
+    width: 20%;
+}
+
+.login {
+    display: grid;
+    grid-template-rows: 10% 6% 10% 6% 10% 6% 10% 6% 10% 6% 10% 6% 10% 6% 10% 6%;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin: 20px;
+    overflow-x: visible;
+    overflow-y: scroll;
+}
+
+/* Things to do
+    Items added to cart
+    Register Page
+    Checkout Page
+    Balance payment
+    Admin Page 
+    Database */

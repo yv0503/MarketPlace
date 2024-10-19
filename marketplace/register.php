@@ -12,19 +12,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="design.css">
     </head>
+<?php
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+   
+    $sql = "SELECT * FROM usercredentials WHERE UserName = '$username' AND password = '$password'";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        if($username == "admin"){
+            header("Location: Admin.php");
+            exit;
+        }
+        else{
+            header("Location: homepage.php");
+            exit;
+        }   
+    } 
+    else {  
+        echo "Invalid username or password.";
+    }
+
+    $conn->close();
+}
+?>
 
     <body class="mainBackground">
 
         <div class ="container6">
             <div class="registerGUI columnItem" style="--position: 1">
             <form class="login">
-                <p class ="item5 Logintext2">Register</p>
-                <p class ="Logintext item1">Username/Email</p>
-                <p class ="Logintext item3">Password</p>
-                <input type="text" class="user item2" placeholder="@username etc..">
-                <input type="password" class="user password item4" placeholder=".........">
-                <button class="loginbutton Logintext item6">Login</button>
-                <button class="loginbutton Logintext item7">Register</button>
+                <p class ="Logintext2 item5">Register</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 1; --positionrow: 2" >Username</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 1; --positionrow: 4" >Email Address</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 1; --positionrow: 6">Password</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 1; --positionrow: 8" >Confirm Password</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 2; --positionrow: 2">First Name</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 2; --positionrow: 4" >Last Name</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 2; --positionrow: 6">Contact Number</p>
+                <p class ="Registertext registerItem" style="--positioncolumn: 2; --positionrow: 8">Address</p>
+                <input type="text" class="user registerItem" style="--positioncolumn: 1; --positionrow: 3" placeholder="@username etc..">
+                <input type="text" class="user registerItem " style="--positioncolumn: 1; --positionrow: 5"placeholder="example@example.com">
+                <input type="password" class="user password registerItem" style="--positioncolumn: 1; --positionrow: 7" placeholder=".........">
+                <input type="password" class="user password registerItem " style="--positioncolumn: 1; --positionrow: 9"placeholder=".........">
+                <input type="text" class="user registerItem" style="--positioncolumn: 2; --positionrow: 3" placeholder="Juan">
+                <input type="text" class="user registerItem " style="--positioncolumn: 2; --positionrow: 5"placeholder="Dela Cruz">
+                <input type="text" class="user registerItem" style="--positioncolumn: 2; --positionrow: 7" placeholder="09--------">
+                <input type="text" class="user registerItem " style="--positioncolumn: 2; --positionrow: 9"placeholder="Street, Barangay, City, Province">
+                <button class="loginbutton Logintext registerItem2 " style="--positioncolumn: 1; --positionrow: 11">Register</button>
                 </form>
             </div>
 
